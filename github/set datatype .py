@@ -1,0 +1,12 @@
+#sets
+set={1,3,"prasanna","jyothi",10.5,"a"}
+print(set)
+set.add(278)
+set.add("hello")
+print(set)
+set.update([1,4,"king"])
+print(set)
+set.discard(7)
+print(set)
+set.pop()
+print(set)

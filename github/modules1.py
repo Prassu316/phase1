@@ -1,0 +1,10 @@
+import csv
+b=open("friends.csv","a",newline="")
+a=csv.writer(b)
+a.writerow(["studentid","rollno","name","phno"])
+studentid=input("enter studentid:")
+rollno=input("enter rollno:")
+name=input("enter name:")
+phno=input("enter phno:")
+a.writerow([studentid,rollno,name,phno])
+print("student record is saved")
